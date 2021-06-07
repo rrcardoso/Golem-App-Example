@@ -21,7 +21,7 @@
 golem::fill_desc(
   pkg_name = "example", # The Name of the package containing the App 
   pkg_title = "Example shiny with golem for Estatística Computacional II course", # The Title of the package containing the App 
-  pkg_description = "Esse shiny app é um exemplo de app apresentado durante o curso de estatística computacional II da UFG para mostrar a utilização do pacote golem na elaboração de shiny apps", # The Description of the package containing the App 
+  pkg_description = "Esse shiny app é um exemplo de app apresentado durante o curso de estatística computacional II da UFG para mostrar a utilização do pacote golem na elaboração de shiny apps.", # The Description of the package containing the App 
   author_first_name = "RODRIGO", # Your First Name
   author_last_name = "CARDOSO", # Your Last Name
   author_email = "rcardosofsa@gmail.com", # Your Email
@@ -33,7 +33,7 @@ golem::set_golem_options()
 
 ## Create Common Files ----
 ## See ?usethis for more information
-usethis::use_mit_license( "Golem User" )  # You can set another license here
+usethis::use_mit_license( "Rodrigo Ribeiro Cardoso" )  # You can set another license here
 usethis::use_readme_rmd( open = FALSE )
 usethis::use_code_of_conduct()
 usethis::use_lifecycle_badge( "Experimental" )
